@@ -980,6 +980,18 @@ figure.agilex-video2 {
     height: 380px;
     max-width: 100%;
   }
+
+  iframe.dobot-tutorial-video3 {
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
+  }
+
+  iframe.dobot-tutorial-video4 {
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
+  }
   
   ol#dobot-carousel-indicators1 {
     left: 35px;
