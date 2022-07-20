@@ -1623,88 +1623,6 @@ figure.agilex-secondimg-background {
     font-size: 44px;
     margin-top: 0px;
   }
-<<<<<<< Updated upstream
-  
-  input#ctl44_ctlContactForm_rpFormField_ctl06_rblFields_1 {
-    margin-left: 15px;
-  }
-  
-  figure.agilex-secondimg-background {
-    background: #ededed;
-  }
-  
-  /* DESKTOP */
-@media only screen and (max-width: 2565px) {
-  div.dobot-contact-left-wrap {
-    width: auto;
-  }
-
-  img.dobot-contact-banner {
-    width: 1430px;
-  }
-
-  div.contact-info {
-    max-width: 1135px;
-  }
-
-  figure.dobot-secondimg-background {
-    width: 1245px;
-  }
-
-  img.dobot-contact-img2 {
-    width: 100%;
-  }
-}
-
-  /* TABLET */
-  @media only screen and (max-width: 1024px) {
-    div.dobot-contact-box12 {
-      flex-flow: wrap;
-      justify-content: center;
-      margin-top: 0px;
-    }
-  
-    h1.dobot-contact-questions {
-      font-size: 60px;
-    }
-  
-    div.dobot-contact-line {
-      margin: 10px 326px 15px 0px;
-    }
-  
-    img.dobot-contact-img2 {
-      display: none;
-    }
-  }
-  
-  /* MOBILE */
-  @media only screen and (max-width: 736px) {
-    div.dobot-contact-box12 {
-      flex-flow: wrap;
-      margin-bottom: 0PX;
-    }
-  
-    div.contact-info {
-      padding: 35px 30px 30px 30px;
-    }
-  
-    h1.dobot-contact-questions {
-      font-size: 44px;
-      margin-top: 0px;
-    }
-  
-    div.dobot-contact-line {
-      margin: 10px 165px 15px 0px;
-    }
-  
-    input#ctl46_ctlContactForm_rpFormField_ctl00_txtField, input#ctl46_ctlContactForm_rpFormField_ctl01_txtField, input#ctl46_ctlContactForm_rpFormField_ctl02_txtField, input#ctl46_ctlContactForm_rpFormField_ctl03_txtField, input#ctl46_ctlContactForm_rpFormField_ctl04_txtField, input#ctl46_ctlContactForm_rpFormField_ctl05_txtField {
-      padding: 10px;  
-      margin-top: 1px; 
-      margin-bottom: 0px; 
-    }
-  }
-  
-=======
 
   div.dobot-contact-line {
     margin: 10px 165px 15px 0px;
@@ -1721,4 +1639,3 @@ figure.agilex-secondimg-background {
     margin-bottom: 0px;
   }
 }
->>>>>>> Stashed changes
