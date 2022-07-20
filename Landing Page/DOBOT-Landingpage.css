@@ -1038,6 +1038,16 @@ a.dobot-tutorials-github {
     height: 340px;
   }
 
+  iframe.dobot-tutorial-video3 {
+    width: 650px;
+    height: 340px;
+  }
+  
+  iframe.dobot-tutorial-video4 {
+    width: 650px;
+    height: 340px;
+  }
+
   div.dobot-tutorial-box1 {
     padding: 20px 100px 80px 100px;
   }
@@ -1084,6 +1094,16 @@ a.dobot-tutorials-github {
   }
 
   iframe.dobot-tutorial-video2 {
+    width: 420px;
+    height: 200px;
+  }
+
+  iframe.dobot-tutorial-video3 {
+    width: 420px;
+    height: 200px;
+  }
+  
+  iframe.dobot-tutorial-video4 {
     width: 420px;
     height: 200px;
   }
