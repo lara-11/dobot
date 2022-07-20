@@ -1546,6 +1546,29 @@ figure.agilex-video2 {
     background: #ededed;
   }
   
+  /* DESKTOP */
+@media only screen and (max-width: 2565px) {
+  div.dobot-contact-left-wrap {
+    width: auto;
+  }
+
+  img.dobot-contact-banner {
+    width: 1430px;
+  }
+
+  div.contact-info {
+    max-width: 1135px;
+  }
+
+  figure.dobot-secondimg-background {
+    width: 1245px;
+  }
+
+  img.dobot-contact-img2 {
+    width: 100%;
+  }
+}
+
   /* TABLET */
   @media only screen and (max-width: 1024px) {
     div.dobot-contact-box12 {
