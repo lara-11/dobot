@@ -1,9 +1,28 @@
-/* MORE JESUS EDITS FOR DOBOT PAGE, MAKING THE 4 OPTIONS IN ALL 4 PAGES(THIS IS PAGE CR16) */
-h1.specifications {
+/* DOBOT PAGE 4 ARMS (CSS FOR ALL CR ARMS) */
+h1.specifications-cr3,
+h1.specifications-cr5,
+h1.specifications-cr10,
+h1.specifications-cr16 {
   color: #02abe9;
   font-weight: 600;
   font-size: 22px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+h1.specifications-cr3 {
+  margin-left: 10px;
+}
+
+h1.specifications-cr5 {
+  margin-left: 10px;
+}
+
+h1.specifications-cr10 {
+  margin-left: 20px;
+}
+
+h1.specifications-cr16 {
+  margin-left: 20px;
 }
 
 /* This will remove the bullet points */
@@ -21,10 +40,21 @@ ul.right-list {
 /* This will place both lists next to each other */
 element.specifications {
   display: flex;
+  justify-content: center;
 }
 
 /* This will alight all the items horizontally */
 .flex_all_items {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+div.cr3-cr5-flex {
+  display: flex;
+}
+
+div.cr10-cr16-flex {
   display: flex;
 }
 
@@ -87,7 +117,56 @@ div.hover_color4:hover {
   outline: 5px solid transparent;
 }
 
-/*This is the mobile version*/
+div.spec-box-flex-box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* EDIT */
+@media only screen and (max-width: 1419px) {
+  h1.specifications-cr3 {
+    margin-left: 0px;
+  }
+
+  h1.specifications-cr5 {
+    margin-left: 0px;
+  }
+
+  h1.specifications-cr10 {
+    margin-left: 0px;
+  }
+
+  h1.specifications-cr16 {
+    margin-left: 0px;
+  }
+}
+
+/* EDIT */
+@media only screen and (max-width: 1245px) {
+  .flex_all_items {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  div.cr3-cr5-flex {
+    display: block;
+  }
+  
+  div.cr10-cr16-flex {
+    display: block;
+  }
+}
+
+/* TABLET 
+@media only screen and (max-width: 1024px) {
+  div.dobot-contact-box12 {
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 0px;
+  }
+} */
+
+/* MOBILE */
 @media (max-width: 667px) {
   div.flex_all_items {
     display: none;
