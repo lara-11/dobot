@@ -1,97 +1,98 @@
 /* MORE JESUS EDITS FOR DOBOT PAGE, MAKING THE 4 OPTIONS IN ALL 4 PAGES(THIS IS PAGE CR16) */
 h1.specifications {
-    color: #02abe9;
-    font-weight: 600;
-    font-size: 22px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #02abe9;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* This will remove the bullet points */
+ul.left-list {
+  list-style-type: none;
+}
+
+/* This will remove the bullet points */
+ul.right-list {
+  list-style-type: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* This will place both lists next to each other */
+element.specifications {
+  display: flex;
+}
+
+/* This will alight all the items horizontally */
+.flex_all_items {
+  display: flex;
+}
+
+/* This will place specs under image */
+.first img & spec {
+  position: absolute;
+}
+
+/* This will place specs under image */
+.second img & spec {
+  position: absolute;
+}
+
+/* This will place specs under image */
+.third img & spec {
+  position: absolute;
+}
+
+/* This will place specs under image */
+.fourth img & spec {
+  position: absolute;
+}
+
+/* This will create the line */
+h2.line {
+  border-left: 1.8px solid black;
+  height: 150px;
+}
+
+/* This will give border color on hover for the img & spec */
+div.hover_color1 {
+  border: 5px solid transparent;
+}
+
+div.hover_color1:hover {
+  outline: 5px solid #02abe9;
+}
+
+div.hover_color2 {
+  border: 5px solid transparent;
+}
+
+div.hover_color2:hover {
+  outline: 5px solid #02abe9;
+}
+
+div.hover_color3 {
+  border: 5px solid transparent;
+}
+
+div.hover_color3:hover {
+  outline: 5px solid #02abe9;
+}
+
+div.hover_color4 {
+  border: 5px solid #02abe9;
+}
+
+div.hover_color4:hover {
+  outline: 5px solid transparent;
+}
+
+/*This is the mobile version*/
+@media (max-width: 667px) {
+  div.flex_all_items {
+    display: none;
+    max-width: 380px;
+    /* display: inline-block; */
+    text-align: left;
   }
-  
-  /* This will remove the bullet points */
-  ul.left-list {
-    list-style-type: none;
-  }
-  
-  /* This will remove the bullet points */
-  ul.right-list {
-    list-style-type: none;
-    pointer-events: none;
-    cursor: default;
-  }
-  
-  /* This will place both lists next to each other */
-  element.specifications {
-    display: flex;
-  }
-  
-  /* This will alight all the items horizontally */
-  .flex_all_items {
-    display: flex;
-  }
-  
-  /* This will place specs under image */
-  .first img & spec {
-    position: absolute;
-  }
-  
-  /* This will place specs under image */
-  .second img & spec {
-    position: absolute;
-  }
-  
-  /* This will place specs under image */
-  .third img & spec {
-    position: absolute;
-  }
-  
-  /* This will place specs under image */
-  .fourth img & spec {
-    position: absolute;
-  }
-  
-  /* This will create the line */
-  h2.line {
-    border-left: 1.8px solid black;
-    height: 150px;
-  }
-  
-  /* This will give border color on hover for the img & spec */
-  div.hover_color1 {
-    border: 5px solid transparent;
-  }
-  
-  div.hover_color1:hover {
-    outline: 5px solid #02abe9;
-  }
-  
-  div.hover_color2 {
-    border: 5px solid transparent;
-  }
-  
-  div.hover_color2:hover {
-    outline: 5px solid #02abe9;
-  }
-  
-  div.hover_color3 {
-    border: 5px solid transparent;
-  }
-  
-  div.hover_color3:hover {
-    outline: 5px solid #02abe9;
-  }
-  
-  div.hover_color4 {
-    border: 5px solid #02abe9;
-  }
-  
-  div.hover_color4:hover {
-    outline: 5px solid transparent;
-  }
-  
-  /*This is the mobile version*/
-  @media (max-width: 667px){
-    div.flex_all_items {
-      max-width: 380px;
-      display: inline-block;
-      text-align: left;
-    }
-  }
+}
