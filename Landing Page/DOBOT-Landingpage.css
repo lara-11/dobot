@@ -1,5 +1,5 @@
 /* DOBOT LANDING PAGE */
-/* DOBOT VIDEO */
+/* SECTION 1 */
 figure.agilex-video2 {
   display: none;
 }
@@ -15,7 +15,7 @@ figure.agilex-video2 {
   }
 }
 
-/* DOBOT AUTOMATION */
+/* SECTION 2 */
 div.dobot-flex-container2 {
   display: flex;
   justify-content: center;
@@ -185,7 +185,7 @@ p.dobot-automation-p {
   }
 }
 
-/* DOBOT 4-IMG */
+/* SECTION 3 */
 div.dobot-flex-container3 {
   display: flex;
   justify-content: center;
@@ -206,7 +206,7 @@ div.dobot-flex-container3 {
   }
 }
 
-/* DOBOT CR */
+/* SECTION 4 */
 div.dobot-flex-container4 {
   display: flex;
   justify-content: center;
@@ -311,7 +311,7 @@ p.dobot-cr-p {
   }
 }
 
-/* DOBOT PERFORMANCE */
+/* SECTION 5 */
 h1.dobot-performance-title-h1 {
   font-size: 60px;
   text-align: center;
@@ -631,7 +631,7 @@ p.dobot-performance4-p {
   }
 }
 
-/* DOBOT VISUAL */
+/* SECTION 6 */
 div.dobot-flex-container6 {
   display: flex;
   justify-content: center;
@@ -641,46 +641,44 @@ div.dobot-flex-container6 {
 
 div.dobot-visual-box1 {
   width: 951.3px;
-  padding: 120px 0px 60px 0px;
+  padding: 80px 50px 60px 120px;
 }
 
 h1.dobot-visual-h1 {
   font-size: 60px;
   color: #1a272d;
-  margin: 0px 120px 0px 120px;
 }
 
 div.dobot-visual-line {
   height: 2px;
   background: #1a272d;
-  margin: 10px 435px 15px 120px;
+  margin: 10px 385px 15px 0px;
 }
 
 p.dobot-visual-p {
   font-size: 23px;
-  margin-left: 120px;
-  margin-right: 120px;
   line-height: 30px;
 }
 
 div.dobot-visual-links {
   display: flex;
   flex-flow: column;
-  margin-left: 120px;
-  margin-right: 120px;
 }
 
 div.dobot-visual-box2 {
   width: 800px;
   text-align: center;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding: 60px 120px 60px 50px;
 }
 
 /* TABLET */
 @media only screen and (max-width: 1024px) {
+  div.dobot-flex-container6 {
+    flex-flow: wrap;
+  }
+
   div.dobot-visual-box1 {
-    padding: 50px 0px 40px 80px;
+    padding: 40px 100px 20px 100px;
   }
 
   h1.dobot-visual-h1 {
@@ -703,17 +701,12 @@ div.dobot-visual-box2 {
   }
 
   div.dobot-visual-box2 {
-    padding: 60px 0px 60px 0px;
-    margin: 0px 80px 0px 0px;
+    padding: 20px 100px 40px 100px;
   }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 736px) {
-  div.dobot-flex-container6 {
-    flex-flow: wrap;
-  }
-
   div.dobot-visual-box1 {
     padding: 30px 30px 20px 30px;
   }
@@ -738,7 +731,7 @@ div.dobot-visual-box2 {
   }
 }
 
-/* DOBOT POSE */
+/* SECTION 7 */
 div.dobot-flex-container7 {
   display: flex;
   justify-content: center;
@@ -842,7 +835,7 @@ p.dobot-pose-p {
   }
 }
 
-/* DOBOT APPLICATIONS */
+/* SECTION 8 */
 div.dobot-applications-box1 {
   padding: 50px 0px 50px 0px;
 }
@@ -936,7 +929,7 @@ img.dobot-applications-app {
   }
 }
 
-/* DOBOT TUTORIAL */
+/* SECTION 9 */
 div.dobot-flex-container9 {
   display: flex;
   justify-content: center;
@@ -1042,7 +1035,7 @@ a.dobot-tutorials-github {
     width: 650px;
     height: 340px;
   }
-  
+
   iframe.dobot-tutorial-video4 {
     width: 650px;
     height: 340px;
@@ -1102,7 +1095,7 @@ a.dobot-tutorials-github {
     width: 420px;
     height: 200px;
   }
-  
+
   iframe.dobot-tutorial-video4 {
     width: 420px;
     height: 200px;
@@ -1146,7 +1139,7 @@ a.dobot-tutorials-github {
   }
 }
 
-/* DOBOT EFFECTORS */
+/* SECTION 10 */
 div.dobot-effectors-box1 {
   background: #ededed;
   padding: 50px 0px 35px 0px;
@@ -1242,7 +1235,7 @@ img.dobot-effectors-servos {
   }
 }
 
-/* DOBOT MODELS */
+/* SECTION 11 */
 div.dobot-flex-container11 {
   display: flex;
   justify-content: center;
@@ -1479,7 +1472,7 @@ p.dobot-carousel-info-text3 {
 }
 
 
-/* DOBOT CONTACT */
+/* SECTION 12 */
 div.dobot-contact-box12 {
   display: flex;
   margin-top: 40px;
