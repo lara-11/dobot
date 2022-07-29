@@ -58,25 +58,25 @@ div.cr10-cr16-flex {
   display: flex;
 }
 
-/* This will place specs under image */
+/* This will place specs under image 
 .first img & spec {
   position: absolute;
 }
 
-/* This will place specs under image */
+This will place specs under image 
 .second img & spec {
   position: absolute;
 }
 
-/* This will place specs under image */
+This will place specs under image 
 .third img & spec {
   position: absolute;
 }
 
-/* This will place specs under image */
+/* This will place specs under image 
 .fourth img & spec {
   position: absolute;
-}
+} */
 
 /* This will create the line */
 h2.line {
