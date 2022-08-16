@@ -1948,7 +1948,25 @@
     margin: 10px 875px 0px 200px;
   }
 
-  /* Carousel-indicators edits can be found in X-Series section */
+  /* Carousel edits starts here */
+  .carousel-indicators li {
+    border-color: none;
+    background: #ccc;
+}
+
+.carousel-indicators .active {
+    background: #444;
+}
+
+/* This is the box that makes the arrows function */
+.carousel-control {
+    opacity: none;
+    width: 0%;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
 
   /* Arrows function can be found in X-Series section */
 
@@ -1990,14 +2008,52 @@
     margin-bottom: 5px;
   }
 
-  /* Gradient on top of arrows left can be found in X-Series section */
+  /* This edits the gradient on top of arrows left */
+  .carousel-control.left {
+    background-image: none;
+}
 
-  /* Gradient on top of arrows right can be found in X-Series section */
+/* Hides Glyphicon */
+.glyphicon-chevron-left:before {
+    color: black;
+    content: "<";
+    display: none;
+}
 
-  /* Hides Glyphicon left & right can be found in X-Series section */
+/* This edits the gradient on top of arrows right */
+.carousel-control.right {
+    background-image: none;
+}
 
-  /* Arrowsa for carousel can be found in X-Series section */
+/* Hides Glyphicon */
+.glyphicon-chevron-right:before {
+    color: black;
+    background-image: none;
+    content: ">";
+    display: none;
+}
 
+/* Arrowsa for carousel */
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.left-1 {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.right-1 {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+i.arrow.right-1 {
+  cursor: pointer;
+}
   span#dobot-models-left-arrow {
     margin-left: 120px;
   }
