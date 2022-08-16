@@ -1,1654 +1,1654 @@
-/* DOBOT LANDING PAGE */
-/* SECTION 1 */
-figure.agilex-video2 {
-  display: none;
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  figure.agilex-video1 {
+  /* DOBOT LANDING PAGE */
+  /* SECTION 1 */
+  figure.agilex-video2 {
     display: none;
   }
 
-  figure.agilex-video2 {
-    display: block;
-  }
-}
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    figure.agilex-video1 {
+      display: none;
+    }
 
-/* SECTION 2 */
-div.dobot-flex-container2 {
-  display: flex;
-  justify-content: center;
-  background: #ededed;
-  margin-bottom: 10px;
-}
-
-div.dobot-automation-box1 {
-  width: 870px;
-}
-
-div.dobot-automation-title-img {
-  display: flex;
-  justify-content: center;
-  margin: 0px 60px 0px 120px;
-}
-
-img.dobot-automation-logo {
-  width: 245px;
-}
-
-h1.dobot-automation-h1 {
-  max-width: 670px;
-  text-align: left;
-  font-size: 52px;
-  color: #1a272d;
-  margin: 50px 15px 0px 0px;
-}
-
-div.dobot-automation-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 130px 15px 0px;
-}
-
-figure.dobot-automation-logo {
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom: 20px;
-}
-
-p.dobot-automation-p {
-  text-align: justify;
-  margin: 0px 60px 60px 120px;
-}
-
-/* Fixes dobot logo issue */
-@media only screen and (max-width: 1761px) {
-  figure.dobot-automation-logo {
-    margin-top: 40px;
+    figure.agilex-video2 {
+      display: block;
+    }
   }
 
-  img.dobot-automation-logo {
-    width: 255px;
-  }
-}
-
-/* Fixes dobot logo issue */
-@media only screen and (max-width: 1450px) {
-  div.dobot-automation-title-img {
-    display: block;
-  }
-
-  h1.dobot-automation-h1 {
-    text-align: left;
-  }
-
-  div.dobot-automation-line {
-    margin: 10px 135px 15px 0px;
-  }
-
-  figure.dobot-automation-logo {
-    text-align: left;
-    margin-top: 25px;
-  }
-}
-
-/* TABLET */
-@media only screen and (max-width: 1024px) {
-  div.dobot-automation-title-img {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 100px 5px 100px;
-  }
-
+  /* SECTION 2 */
   div.dobot-flex-container2 {
-    flex-flow: wrap;
+    display: flex;
+    justify-content: center;
+    background: #ededed;
+    margin-bottom: 10px;
   }
 
   div.dobot-automation-box1 {
-    width: auto;
+    width: 870px;
+  }
+
+  div.dobot-automation-title-img {
+    display: flex;
+    justify-content: center;
+    margin: 0px 60px 0px 120px;
+  }
+
+  img.dobot-automation-logo {
+    width: 245px;
   }
 
   h1.dobot-automation-h1 {
+    max-width: 670px;
     text-align: left;
-    margin-top: 40px;
+    font-size: 52px;
+    color: #1a272d;
+    margin: 50px 15px 0px 0px;
   }
 
   div.dobot-automation-line {
-    margin: 10px 135px 15px 0px;
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 130px 15px 0px;
   }
 
   figure.dobot-automation-logo {
-    margin: 25px 100px 10px 0px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
   }
 
   p.dobot-automation-p {
     text-align: justify;
-    font-size: 15px;
-    margin: 0px 100px 20px 100px;
+    margin: 0px 60px 60px 120px;
   }
 
-  figure.dobot-automation-img {
-    margin: 0px 100px 0px 100px;
-  }
-}
+  /* Fixes dobot logo issue */
+  @media only screen and (max-width: 1761px) {
+    figure.dobot-automation-logo {
+      margin-top: 40px;
+    }
 
-/* Fixes dobot logo issue */
-@media only screen and (max-width: 994px) {
-  figure.dobot-automation-logo {
-    margin: 30px 100px 10px 0px;
-  }
-}
-
-/* Fixes dobot logo issue */
-@media only screen and (max-width: 830px) {
-  div.dobot-automation-title-img {
-    display: block;
+    img.dobot-automation-logo {
+      width: 255px;
+    }
   }
 
-  figure.dobot-automation-logo {
-    text-align: left;
-    margin-top: 10px;
-  }
-}
+  /* Fixes dobot logo issue */
+  @media only screen and (max-width: 1450px) {
+    div.dobot-automation-title-img {
+      display: block;
+    }
 
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.dobot-flex-container2 {
-    flex-flow: wrap;
-  }
+    h1.dobot-automation-h1 {
+      text-align: left;
+    }
 
-  div.dobot-automation-title-img {
-    margin: 0px 30px 0px 30px;
-  }
+    div.dobot-automation-line {
+      margin: 10px 135px 15px 0px;
+    }
 
-  h1.dobot-automation-h1 {
-    margin-top: 30px;
-    font-size: 45px;
-  }
-
-  div.dobot-automation-line {
-    margin: 10px 165px 15px 0px;
+    figure.dobot-automation-logo {
+      text-align: left;
+      margin-top: 25px;
+    }
   }
 
-  img.dobot-automation-logo {
-    width: 235px;
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-automation-title-img {
+      display: flex;
+      justify-content: space-between;
+      margin: 0px 100px 5px 100px;
+    }
+
+    div.dobot-flex-container2 {
+      flex-flow: wrap;
+    }
+
+    div.dobot-automation-box1 {
+      width: auto;
+    }
+
+    h1.dobot-automation-h1 {
+      text-align: left;
+      margin-top: 40px;
+    }
+
+    div.dobot-automation-line {
+      margin: 10px 135px 15px 0px;
+    }
+
+    figure.dobot-automation-logo {
+      margin: 25px 100px 10px 0px;
+    }
+
+    p.dobot-automation-p {
+      text-align: justify;
+      font-size: 15px;
+      margin: 0px 100px 20px 100px;
+    }
+
+    figure.dobot-automation-img {
+      margin: 0px 100px 0px 100px;
+    }
   }
 
-  p.dobot-automation-p {
-    margin: 0px 30px 10px 30px;
-    font-size: 14px;
+  /* Fixes dobot logo issue */
+  @media only screen and (max-width: 994px) {
+    figure.dobot-automation-logo {
+      margin: 30px 100px 10px 0px;
+    }
   }
 
-  figure.dobot-automation-img {
-    margin: 0px 30px 0px 30px;
+  /* Fixes dobot logo issue */
+  @media only screen and (max-width: 830px) {
+    div.dobot-automation-title-img {
+      display: block;
+    }
+
+    figure.dobot-automation-logo {
+      text-align: left;
+      margin-top: 10px;
+    }
   }
-}
 
-/* SECTION 3 */
-div.dobot-flex-container3 {
-  display: flex;
-  justify-content: center;
-  margin: 30px 110px 30px 120px;
-}
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-flex-container2 {
+      flex-flow: wrap;
+    }
 
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+    div.dobot-automation-title-img {
+      margin: 0px 30px 0px 30px;
+    }
+
+    h1.dobot-automation-h1 {
+      margin-top: 30px;
+      font-size: 45px;
+    }
+
+    div.dobot-automation-line {
+      margin: 10px 165px 15px 0px;
+    }
+
+    img.dobot-automation-logo {
+      width: 235px;
+    }
+
+    p.dobot-automation-p {
+      margin: 0px 30px 10px 30px;
+      font-size: 14px;
+    }
+
+    figure.dobot-automation-img {
+      margin: 0px 30px 0px 30px;
+    }
+  }
+
+  /* SECTION 3 */
   div.dobot-flex-container3 {
-    margin: 30px 90px 30px 100px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 110px 30px 120px;
   }
-}
 
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.dobot-flex-container3 {
-    margin: 20px 20px 20px 30px;
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-flex-container3 {
+      margin: 30px 90px 30px 100px;
+    }
   }
-}
 
-/* SECTION 4 */
-div.dobot-flex-container4 {
-  display: flex;
-  justify-content: center;
-  background: #e2f2fb;
-  margin-bottom: 10px;
-}
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-flex-container3 {
+      margin: 20px 20px 20px 30px;
+    }
+  }
 
-div.dobot-cr-box1 {
-  padding: 60px 50px 60px 120px;
-}
-
-iframe.dobot-cr-video {
-  width: 700px;
-  height: 380px;
-  max-width: 100%;
-}
-
-div.dobot-cr-box2 {
-  padding: 100px 120px 60px 50px;
-}
-
-h1.dobot-cr-h1 {
-  max-width: 670px;
-  text-align: left;
-  font-size: 60px;
-  color: #1a272d;
-  margin-top: 0px;
-}
-
-div.dobot-cr-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 290px 15px 0px;
-}
-
-p.dobot-cr-p {
-  max-width: 670px;
-  text-align: justify;
-}
-
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+  /* SECTION 4 */
   div.dobot-flex-container4 {
-    flex-flow: wrap-reverse;
+    display: flex;
+    justify-content: center;
+    background: #e2f2fb;
+    margin-bottom: 10px;
   }
 
   div.dobot-cr-box1 {
-    padding: 20px 100px 40px 100px;
+    padding: 60px 50px 60px 120px;
   }
 
   iframe.dobot-cr-video {
-    width: 650px;
-    height: 340px;
-  }
-
-  div.dobot-cr-box2 {
-    padding: 40px 100px 20px 100px;
-  }
-
-  h1.dobot-cr-h1 {
-    text-align: left;
+    width: 700px;
+    height: 380px;
     max-width: 100%;
   }
 
-  div.dobot-cr-line {
-    margin: 10px 400px 15px 0px;
-  }
-
-  p.dobot-cr-p {
-    font-size: 15px;
-    max-width: 100%;
-    margin-bottom: 0px;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.dobot-cr-box1 {
-    padding: 0px 30px 40px 30px;
-  }
-
-  iframe.dobot-cr-video {
-    width: 420px;
-    height: 220px;
-  }
-
   div.dobot-cr-box2 {
-    padding: 30px 30px 20px 30px;
+    padding: 100px 120px 60px 50px;
   }
 
   h1.dobot-cr-h1 {
-    font-size: 45px;
+    max-width: 670px;
     text-align: left;
+    font-size: 60px;
+    color: #1a272d;
+    margin-top: 0px;
   }
 
   div.dobot-cr-line {
-    margin: 10px 200px 15px 0px;
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 290px 15px 0px;
   }
 
   p.dobot-cr-p {
-    font-size: 14px;
+    max-width: 670px;
+    text-align: justify;
   }
-}
 
-/* SECTION 5 */
-h1.dobot-performance-title-h1 {
-  font-size: 60px;
-  text-align: center;
-  color: #1a272d;
-  margin: 40px 0px 0px 0px;
-}
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-flex-container4 {
+      flex-flow: wrap-reverse;
+    }
 
-div.dobot-performance-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 15px 750px 25px 750px;
-}
+    div.dobot-cr-box1 {
+      padding: 20px 100px 40px 100px;
+    }
 
-div.dobot-flex-container5 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
+    iframe.dobot-cr-video {
+      width: 650px;
+      height: 340px;
+    }
 
-div.dobot-performance-box1 {
-  width: 450px;
-  padding: 0px 0px 40px 0px;
-  margin-left: 120px;
-}
+    div.dobot-cr-box2 {
+      padding: 40px 100px 20px 100px;
+    }
 
-figure.dobot-performance-container1 {
-  text-align: center;
-  margin: 0px 40px 0px 40px;
-}
+    h1.dobot-cr-h1 {
+      text-align: left;
+      max-width: 100%;
+    }
 
-img.dobot-performance-operation {
-  width: 135px;
-}
+    div.dobot-cr-line {
+      margin: 10px 400px 15px 0px;
+    }
 
-h1.dobot-performance1-h1 {
-  font-size: 20px;
-  text-align: center;
-  color: #1a272d;
-  margin: 20px 40px 10px 40px;
-}
-
-p.dobot-performance1-p {
-  font-size: 14.5px;
-  text-align: center;
-  margin: 0px 40px 0px 40px;
-}
-
-div.dobot-performance-box2 {
-  width: 450px;
-  padding: 0px 0px 40px 0px;
-}
-
-figure.dobot-performance-container2 {
-  transform: scaleX(-1);
-  text-align: center;
-  margin: 0px 40px 0px 40px;
-}
-
-img.dobot-performance-reach {
-  transform: scaleX(-1);
-  width: 135px;
-}
-
-h1.dobot-performance2-h1 {
-  text-align: center;
-  font-size: 20px;
-  color: #1a272d;
-  margin: 20px 40px 10px 40px;
-}
-
-p.dobot-performance2-p {
-  font-size: 14.5px;
-  text-align: center;
-  margin: 0px 40px 0px 40px;
-}
-
-div.dobot-performance-box3 {
-  width: 450px;
-  padding: 0px 0px 40px 0px;
-}
-
-figure.dobot-performance-container3 {
-  text-align: center;
-  margin: 0px 40px 0px 40px;
-}
-
-img.dobot-performance-repeatability {
-  width: 135px;
-}
-
-h1.dobot-performance3-h1 {
-  text-align: center;
-  font-size: 20px;
-  color: #1a272d;
-  margin: 20px 40px 10px 40px;
-}
-
-p.dobot-performance3-p {
-  font-size: 14.5px;
-  text-align: center;
-  margin: 0px 40px 0px 40px;
-}
-
-div.dobot-performance-box4 {
-  width: 450px;
-  padding: 0px 0px 40px 0px;
-  margin-right: 120px;
-}
-
-figure.dobot-performance-container4 {
-  transform: scaleX(-1);
-  text-align: center;
-  margin: 0px 40px 0px 40px;
-}
-
-img.dobot-performance-payload {
-  transform: scaleX(-1);
-  width: 135px;
-}
-
-h1.dobot-performance4-h1 {
-  text-align: center;
-  font-size: 20px;
-  color: #1a272d;
-  margin: 20px 40px 10px 40px;
-}
-
-p.dobot-performance4-p {
-  font-size: 14.5px;
-  text-align: center;
-  margin: 0px 40px 0px 40px;
-}
-
-/* Fixes line issue */
-@media only screen and (max-width: 1675px) {
-  div.dobot-performance-line {
-    margin: 15px 640px 10px 640px;
+    p.dobot-cr-p {
+      font-size: 15px;
+      max-width: 100%;
+      margin-bottom: 0px;
+    }
   }
-}
 
-/* Fixes line issue */
-@media only screen and (max-width: 1455px) {
-  div.dobot-performance-line {
-    margin: 15px 540px 10px 540px;
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-cr-box1 {
+      padding: 0px 30px 40px 30px;
+    }
+
+    iframe.dobot-cr-video {
+      width: 420px;
+      height: 220px;
+    }
+
+    div.dobot-cr-box2 {
+      padding: 30px 30px 20px 30px;
+    }
+
+    h1.dobot-cr-h1 {
+      font-size: 45px;
+      text-align: left;
+    }
+
+    div.dobot-cr-line {
+      margin: 10px 200px 15px 0px;
+    }
+
+    p.dobot-cr-p {
+      font-size: 14px;
+    }
   }
-}
 
-/* Fixes line issue */
-@media only screen and (max-width: 1200px) {
-  div.dobot-performance-line {
-    margin: 15px 440px 10px 440px;
-  }
-}
-
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+  /* SECTION 5 */
   h1.dobot-performance-title-h1 {
-    font-size: 5vw;
-    margin-top: 40px;
-  }
-
-  div.dobot-performance-line {
-    margin: 15px 330px 25px 330px;
-  }
-
-  div.dobot-performance-box1 {
-    padding: 0px 0px 40px 0px;
-    margin: 0px 0px 0px 80px;
-  }
-
-  figure.dobot-performance-container1 {
-    margin: 0px 0px 0px 0px;
-  }
-
-  h1.dobot-performance1-h1 {
-    margin: 15px 0px 10px 0px;
-  }
-
-  p.dobot-performance1-p {
-    font-size: 13.5px;
-    margin: 0px 0px 0px 0px;
-  }
-
-  div.dobot-performance-box2 {
-    margin: 0px 12.5px 0px 25px;
-    padding: 0px 0px 40px 0px;
-  }
-
-  figure.dobot-performance-container2 {
-    margin: 0px 0px 0px 0px;
-  }
-
-  h1.dobot-performance2-h1 {
-    margin: 15px 0px 10px 0px;
-  }
-
-  p.dobot-performance2-p {
-    font-size: 13.5px;
-    margin: 0px 0px 0px 0px;
-  }
-
-  div.dobot-performance-box3 {
-    margin: 0px 25px 0px 12.5px;
-    padding: 0px 0px 40px 0px;
-  }
-
-  figure.dobot-performance-container3 {
-    margin: 0px 0px 0px 0px;
-  }
-
-  h1.dobot-performance3-h1 {
-    margin: 15px 0px 10px 0px;
-  }
-
-  p.dobot-performance3-p {
-    font-size: 13.5px;
-    margin: 0px 0px 0px 0px;
-  }
-
-  div.dobot-performance-box4 {
-    margin-right: 80px;
-    padding: 0px 0px 40px 0px;
-  }
-
-  figure.dobot-performance-container4 {
-    margin: 0px 0px 0px 0px;
-  }
-
-  h1.dobot-performance4-h1 {
-    margin: 15px 0px 10px 0px;
-  }
-
-  p.dobot-performance4-p {
-    font-size: 13.5px;
-    margin: 0px 0px 0px 0px;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  h1.dobot-performance-title-h1 {
-    display: block;
+    font-size: 60px;
     text-align: center;
-    font-size: 45px;
-    margin: 30px 0px 0px 0px;
+    color: #1a272d;
+    margin: 40px 0px 0px 0px;
   }
 
   div.dobot-performance-line {
-    display: block;
-    margin: 10px 90px 25px 90px;
+    height: 2px;
+    background: #1a272d;
+    margin: 15px 750px 25px 750px;
   }
 
   div.dobot-flex-container5 {
-    display: block;
+    display: flex;
     justify-content: center;
     margin-bottom: 10px;
   }
 
   div.dobot-performance-box1 {
-    width: auto;
-    margin: 0px 30px 0px 30px;
-    padding: 0px 0px 20px 0px;
+    width: 450px;
+    padding: 0px 0px 40px 0px;
+    margin-left: 120px;
+  }
+
+  figure.dobot-performance-container1 {
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+  }
+
+  img.dobot-performance-operation {
+    width: 135px;
   }
 
   h1.dobot-performance1-h1 {
-    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+    color: #1a272d;
+    margin: 20px 40px 10px 40px;
   }
 
   p.dobot-performance1-p {
-    font-size: 14px;
-    margin: 0px 0px 0px 0px;
+    font-size: 14.5px;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
   }
 
   div.dobot-performance-box2 {
-    width: auto;
-    margin: 0px 30px 0px 30px;
-    padding: 0px 0px 20px 0px;
+    width: 450px;
+    padding: 0px 0px 40px 0px;
+  }
+
+  figure.dobot-performance-container2 {
+    transform: scaleX(-1);
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+  }
+
+  img.dobot-performance-reach {
+    transform: scaleX(-1);
+    width: 135px;
   }
 
   h1.dobot-performance2-h1 {
-    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: #1a272d;
+    margin: 20px 40px 10px 40px;
   }
 
   p.dobot-performance2-p {
-    font-size: 14px;
-    margin: 0px 0px 0px 0px;
+    font-size: 14.5px;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
   }
 
   div.dobot-performance-box3 {
-    width: auto;
-    margin: 0px 30px 0px 30px;
-    padding: 0px 0px 20px 0px;
+    width: 450px;
+    padding: 0px 0px 40px 0px;
+  }
+
+  figure.dobot-performance-container3 {
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+  }
+
+  img.dobot-performance-repeatability {
+    width: 135px;
   }
 
   h1.dobot-performance3-h1 {
-    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: #1a272d;
+    margin: 20px 40px 10px 40px;
   }
 
   p.dobot-performance3-p {
-    font-size: 14px;
-    margin: 0px 0px 0px 0px;
+    font-size: 14.5px;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
   }
 
   div.dobot-performance-box4 {
-    width: auto;
-    margin: 0px 30px 0px 30px;
-    padding: 0px 0px 30px 0px;
+    width: 450px;
+    padding: 0px 0px 40px 0px;
+    margin-right: 120px;
+  }
+
+  figure.dobot-performance-container4 {
+    transform: scaleX(-1);
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+  }
+
+  img.dobot-performance-payload {
+    transform: scaleX(-1);
+    width: 135px;
   }
 
   h1.dobot-performance4-h1 {
-    margin-top: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: #1a272d;
+    margin: 20px 40px 10px 40px;
   }
 
   p.dobot-performance4-p {
-    font-size: 14px;
-    margin: 0px 0px 0px 0px;
+    font-size: 14.5px;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
   }
-}
 
-/* SECTION 6 */
-div.dobot-flex-container6 {
-  display: flex;
-  justify-content: center;
-  background: #ededed;
-  margin-bottom: 10px;
-}
+  /* Fixes line issue */
+  @media only screen and (max-width: 1675px) {
+    div.dobot-performance-line {
+      margin: 15px 640px 10px 640px;
+    }
+  }
 
-div.dobot-visual-box1 {
-  width: 951.3px;
-  padding: 80px 50px 60px 120px;
-}
+  /* Fixes line issue */
+  @media only screen and (max-width: 1455px) {
+    div.dobot-performance-line {
+      margin: 15px 540px 10px 540px;
+    }
+  }
 
-h1.dobot-visual-h1 {
-  font-size: 60px;
-  color: #1a272d;
-}
+  /* Fixes line issue */
+  @media only screen and (max-width: 1200px) {
+    div.dobot-performance-line {
+      margin: 15px 440px 10px 440px;
+    }
+  }
 
-div.dobot-visual-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 385px 15px 0px;
-}
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    h1.dobot-performance-title-h1 {
+      font-size: 5vw;
+      margin-top: 40px;
+    }
 
-p.dobot-visual-p {
-  font-size: 23px;
-  line-height: 30px;
-}
+    div.dobot-performance-line {
+      margin: 15px 330px 25px 330px;
+    }
 
-div.dobot-visual-links {
-  display: flex;
-  flex-flow: column;
-}
+    div.dobot-performance-box1 {
+      padding: 0px 0px 40px 0px;
+      margin: 0px 0px 0px 80px;
+    }
 
-div.dobot-visual-box2 {
-  width: 800px;
-  text-align: center;
-  padding: 60px 120px 60px 50px;
-}
+    figure.dobot-performance-container1 {
+      margin: 0px 0px 0px 0px;
+    }
 
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+    h1.dobot-performance1-h1 {
+      margin: 15px 0px 10px 0px;
+    }
+
+    p.dobot-performance1-p {
+      font-size: 13.5px;
+      margin: 0px 0px 0px 0px;
+    }
+
+    div.dobot-performance-box2 {
+      margin: 0px 12.5px 0px 25px;
+      padding: 0px 0px 40px 0px;
+    }
+
+    figure.dobot-performance-container2 {
+      margin: 0px 0px 0px 0px;
+    }
+
+    h1.dobot-performance2-h1 {
+      margin: 15px 0px 10px 0px;
+    }
+
+    p.dobot-performance2-p {
+      font-size: 13.5px;
+      margin: 0px 0px 0px 0px;
+    }
+
+    div.dobot-performance-box3 {
+      margin: 0px 25px 0px 12.5px;
+      padding: 0px 0px 40px 0px;
+    }
+
+    figure.dobot-performance-container3 {
+      margin: 0px 0px 0px 0px;
+    }
+
+    h1.dobot-performance3-h1 {
+      margin: 15px 0px 10px 0px;
+    }
+
+    p.dobot-performance3-p {
+      font-size: 13.5px;
+      margin: 0px 0px 0px 0px;
+    }
+
+    div.dobot-performance-box4 {
+      margin-right: 80px;
+      padding: 0px 0px 40px 0px;
+    }
+
+    figure.dobot-performance-container4 {
+      margin: 0px 0px 0px 0px;
+    }
+
+    h1.dobot-performance4-h1 {
+      margin: 15px 0px 10px 0px;
+    }
+
+    p.dobot-performance4-p {
+      font-size: 13.5px;
+      margin: 0px 0px 0px 0px;
+    }
+  }
+
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    h1.dobot-performance-title-h1 {
+      display: block;
+      text-align: center;
+      font-size: 45px;
+      margin: 30px 0px 0px 0px;
+    }
+
+    div.dobot-performance-line {
+      display: block;
+      margin: 10px 90px 25px 90px;
+    }
+
+    div.dobot-flex-container5 {
+      display: block;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    div.dobot-performance-box1 {
+      width: auto;
+      margin: 0px 30px 0px 30px;
+      padding: 0px 0px 20px 0px;
+    }
+
+    h1.dobot-performance1-h1 {
+      margin-top: 0px;
+    }
+
+    p.dobot-performance1-p {
+      font-size: 14px;
+      margin: 0px 0px 0px 0px;
+    }
+
+    div.dobot-performance-box2 {
+      width: auto;
+      margin: 0px 30px 0px 30px;
+      padding: 0px 0px 20px 0px;
+    }
+
+    h1.dobot-performance2-h1 {
+      margin-top: 0px;
+    }
+
+    p.dobot-performance2-p {
+      font-size: 14px;
+      margin: 0px 0px 0px 0px;
+    }
+
+    div.dobot-performance-box3 {
+      width: auto;
+      margin: 0px 30px 0px 30px;
+      padding: 0px 0px 20px 0px;
+    }
+
+    h1.dobot-performance3-h1 {
+      margin-top: 0px;
+    }
+
+    p.dobot-performance3-p {
+      font-size: 14px;
+      margin: 0px 0px 0px 0px;
+    }
+
+    div.dobot-performance-box4 {
+      width: auto;
+      margin: 0px 30px 0px 30px;
+      padding: 0px 0px 30px 0px;
+    }
+
+    h1.dobot-performance4-h1 {
+      margin-top: 0px;
+    }
+
+    p.dobot-performance4-p {
+      font-size: 14px;
+      margin: 0px 0px 0px 0px;
+    }
+  }
+
+  /* SECTION 6 */
   div.dobot-flex-container6 {
-    flex-flow: wrap;
+    display: flex;
+    justify-content: center;
+    background: #ededed;
+    margin-bottom: 10px;
   }
 
   div.dobot-visual-box1 {
-    padding: 40px 100px 20px 100px;
+    width: 951.3px;
+    padding: 80px 50px 60px 120px;
   }
 
   h1.dobot-visual-h1 {
-    font-size: 45px;
-    margin: 0px 0px 0px 0px;
+    font-size: 60px;
+    color: #1a272d;
   }
 
   div.dobot-visual-line {
-    width: auto;
-    margin: 10px 140px 15px 0px;
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 385px 15px 0px;
   }
 
   p.dobot-visual-p {
-    font-size: 15.5px;
-    margin: 0px 0px 10px 0px;
+    font-size: 23px;
+    line-height: 30px;
   }
 
   div.dobot-visual-links {
-    margin-left: 0px;
+    display: flex;
+    flex-flow: column;
   }
 
   div.dobot-visual-box2 {
-    padding: 20px 100px 40px 100px;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.dobot-visual-box1 {
-    padding: 30px 30px 20px 30px;
+    width: 800px;
+    text-align: center;
+    padding: 60px 120px 60px 50px;
   }
 
-  h1.dobot-visual-h1 {
-    font-size: 38px;
-    margin: 0px 0px 0px 0px;
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-flex-container6 {
+      flex-flow: wrap;
+    }
+
+    div.dobot-visual-box1 {
+      padding: 40px 100px 20px 100px;
+    }
+
+    h1.dobot-visual-h1 {
+      font-size: 45px;
+      margin: 0px 0px 0px 0px;
+    }
+
+    div.dobot-visual-line {
+      width: auto;
+      margin: 10px 140px 15px 0px;
+    }
+
+    p.dobot-visual-p {
+      font-size: 15.5px;
+      margin: 0px 0px 10px 0px;
+    }
+
+    div.dobot-visual-links {
+      margin-left: 0px;
+    }
+
+    div.dobot-visual-box2 {
+      padding: 20px 100px 40px 100px;
+    }
   }
 
-  div.dobot-visual-line {
-    margin-right: 170px;
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-visual-box1 {
+      padding: 30px 30px 20px 30px;
+    }
+
+    h1.dobot-visual-h1 {
+      font-size: 38px;
+      margin: 0px 0px 0px 0px;
+    }
+
+    div.dobot-visual-line {
+      margin-right: 170px;
+    }
+
+    p.dobot-visual-p {
+      font-size: 16px;
+      margin: 0px 0px 10px 0px;
+    }
+
+    div.dobot-visual-box2 {
+      padding: 10px 0px 40px 0px;
+      margin: 0px 30px 0px 30px;
+    }
   }
 
-  p.dobot-visual-p {
-    font-size: 16px;
-    margin: 0px 0px 10px 0px;
-  }
-
-  div.dobot-visual-box2 {
-    padding: 10px 0px 40px 0px;
-    margin: 0px 30px 0px 30px;
-  }
-}
-
-/* SECTION 7 */
-div.dobot-flex-container7 {
-  display: flex;
-  justify-content: center;
-  background: #e2f2fb;
-  margin-bottom: 10px;
-}
-
-div.dobot-pose-box1 {
-  padding: 60px 50px 60px 120px;
-}
-
-video.dobot-pose-video2 {
-  width: 700px;
-  height: 380px;
-}
-
-div.dobot-pose-box2 {
-  padding: 80px 120px 60px 50px;
-}
-
-h1.dobot-pose-h1 {
-  max-width: 670px;
-  text-align: left;
-  font-size: 60px;
-  color: #1a272d;
-  margin-top: 0px;
-}
-
-div.dobot-pose-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 290px 15px 0px;
-}
-
-p.dobot-pose-p {
-  max-width: 670px;
-  text-align: justify;
-}
-
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+  /* SECTION 7 */
   div.dobot-flex-container7 {
-    flex-flow: wrap-reverse;
+    display: flex;
+    justify-content: center;
+    background: #e2f2fb;
+    margin-bottom: 10px;
   }
 
   div.dobot-pose-box1 {
-    padding: 20px 100px 40px 100px;
+    padding: 60px 50px 60px 120px;
   }
 
   video.dobot-pose-video2 {
-    width: 650px;
-    height: 340px;
+    width: 700px;
+    height: 380px;
   }
 
   div.dobot-pose-box2 {
-    padding: 40px 100px 20px 100px;
+    padding: 80px 120px 60px 50px;
   }
 
   h1.dobot-pose-h1 {
+    max-width: 670px;
     text-align: left;
-    font-size: 50px;
-    max-width: 100%;
+    font-size: 60px;
+    color: #1a272d;
+    margin-top: 0px;
   }
 
   div.dobot-pose-line {
-    margin: 10px 400px 15px 0px;
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 290px 15px 0px;
   }
 
   p.dobot-pose-p {
-    font-size: 15px;
-    max-width: 100%;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.dobot-pose-box1 {
-    padding: 0px 30px 30px 30px;
+    max-width: 670px;
+    text-align: justify;
   }
 
-  video.dobot-pose-video2 {
-    width: 420px;
-    height: 235px;
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-flex-container7 {
+      flex-flow: wrap-reverse;
+    }
+
+    div.dobot-pose-box1 {
+      padding: 20px 100px 40px 100px;
+    }
+
+    video.dobot-pose-video2 {
+      width: 650px;
+      height: 340px;
+    }
+
+    div.dobot-pose-box2 {
+      padding: 40px 100px 20px 100px;
+    }
+
+    h1.dobot-pose-h1 {
+      text-align: left;
+      font-size: 50px;
+      max-width: 100%;
+    }
+
+    div.dobot-pose-line {
+      margin: 10px 400px 15px 0px;
+    }
+
+    p.dobot-pose-p {
+      font-size: 15px;
+      max-width: 100%;
+    }
   }
 
-  div.dobot-pose-box2 {
-    padding: 30px 30px 20px 30px;
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-pose-box1 {
+      padding: 0px 30px 30px 30px;
+    }
+
+    video.dobot-pose-video2 {
+      width: 420px;
+      height: 235px;
+    }
+
+    div.dobot-pose-box2 {
+      padding: 30px 30px 20px 30px;
+    }
+
+    h1.dobot-pose-h1 {
+      font-size: 8.8vw;
+      text-align: left;
+    }
+
+    div.dobot-pose-line {
+      margin: 10px 200px 15px 0px;
+    }
+
+    p.dobot-pose-p {
+      font-size: 14px;
+    }
   }
 
-  h1.dobot-pose-h1 {
-    font-size: 8.8vw;
-    text-align: left;
-  }
-
-  div.dobot-pose-line {
-    margin: 10px 200px 15px 0px;
-  }
-
-  p.dobot-pose-p {
-    font-size: 14px;
-  }
-}
-
-/* SECTION 8 */
-div.dobot-applications-box1 {
-  padding: 50px 0px 50px 0px;
-}
-
-div.dobot-applications-box1-5 {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
-h1.dobot-applications-h1 {
-  max-width: 730px;
-  text-align: center;
-  font-size: 62px;
-  color: #1a272d;
-  margin: 0px 120px 0px 120px;
-}
-
-div.dobot-applications-line {
-  width: 400px;
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 0px 15px 0px;
-}
-
-p.dobot-applications-p {
-  max-width: 730px;
-  text-align: center;
-  margin: 0px 120px 30px 120px;
-}
-
-figure.dobot-applications-img1 {
-  text-align: center;
-  margin: 35px 120px 0px 120px;
-}
-
-div.dobot-applications-box2 {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-img.dobot-applications-app {
-  width: 1300px;
-}
-
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+  /* SECTION 8 */
   div.dobot-applications-box1 {
-    padding: 30px 0px 40px 0px;
+    padding: 50px 0px 50px 0px;
+  }
+
+  div.dobot-applications-box1-5 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
   }
 
   h1.dobot-applications-h1 {
-    margin: 0px 100px 0px 100px;
+    max-width: 730px;
+    text-align: center;
+    font-size: 62px;
+    color: #1a272d;
+    margin: 0px 120px 0px 120px;
   }
 
   div.dobot-applications-line {
-    width: 350px;
+    width: 400px;
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 0px 15px 0px;
   }
 
   p.dobot-applications-p {
-    margin: 0px 100px 30px 100px;
+    max-width: 730px;
+    text-align: center;
+    margin: 0px 120px 30px 120px;
   }
 
   figure.dobot-applications-img1 {
-    margin: 0px 100px 0px 100px;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.dobot-applications-box1 {
-    padding: 20px 0px 30px 0px;
+    text-align: center;
+    margin: 35px 120px 0px 120px;
   }
 
-  h1.dobot-applications-h1 {
-    font-size: 40px;
-    margin: 0px 30px 0px 30px;
+  div.dobot-applications-box2 {
+    text-align: center;
+    margin-bottom: 40px;
   }
 
-  div.dobot-applications-line {
-    width: 250px;
+  img.dobot-applications-app {
+    width: 1300px;
   }
 
-  p.dobot-applications-p {
-    font-size: 14px;
-    margin: 0px 30px 20px 30px;
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-applications-box1 {
+      padding: 30px 0px 40px 0px;
+    }
+
+    h1.dobot-applications-h1 {
+      margin: 0px 100px 0px 100px;
+    }
+
+    div.dobot-applications-line {
+      width: 350px;
+    }
+
+    p.dobot-applications-p {
+      margin: 0px 100px 30px 100px;
+    }
+
+    figure.dobot-applications-img1 {
+      margin: 0px 100px 0px 100px;
+    }
   }
 
-  figure.dobot-applications-img1 {
-    margin: 0px 30px 0px 30px;
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-applications-box1 {
+      padding: 20px 0px 30px 0px;
+    }
+
+    h1.dobot-applications-h1 {
+      font-size: 40px;
+      margin: 0px 30px 0px 30px;
+    }
+
+    div.dobot-applications-line {
+      width: 250px;
+    }
+
+    p.dobot-applications-p {
+      font-size: 14px;
+      margin: 0px 30px 20px 30px;
+    }
+
+    figure.dobot-applications-img1 {
+      margin: 0px 30px 0px 30px;
+    }
   }
-}
 
-/* SECTION 9 */
-div.dobot-flex-container9 {
-  display: flex;
-  justify-content: center;
-  background: #e2f2fb;
-  margin-bottom: 10px;
-}
-
-div.dobot-tutorial-box1 {
-  padding: 60px 0px 90px 120px;
-}
-
-div.dobot-tutorial-box2 {
-  width: 951.3px;
-  padding: 120px 0px 60px 0px;
-}
-
-h1.dobot-tutorial-h1 {
-  color: #1a272d;
-  font-size: 62px;
-  margin: 0px 120px 0px 180px;
-}
-
-div.dobot-tutorial-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 370px 15px 180px;
-}
-
-p.dobot-tutorial-p {
-  text-align: justify;
-  margin: 0px 120px 20px 180px;
-}
-
-iframe.dobot-tutorial-video1 {
-  width: 700px;
-  height: 380px;
-  max-width: 100%;
-}
-
-iframe.dobot-tutorial-video2 {
-  width: 700px;
-  height: 380px;
-  max-width: 100%;
-}
-
-iframe.dobot-tutorial-video3 {
-  width: 700px;
-  height: 380px;
-  max-width: 100%;
-}
-
-iframe.dobot-tutorial-video4 {
-  width: 700px;
-  height: 380px;
-  max-width: 100%;
-}
-
-ol#dobot-carousel-indicators1 {
-  left: 35px;
-  margin-bottom: 0px;
-  margin-left: 100px;
-  margin-right: 100px;
-  top: 400px;
-}
-
-a.dobot-models-opensource {
-  display: block;
-  margin: 0px 120px 5px 180px;
-}
-
-a.dobot-tutorials-github {
-  margin: 0px 120px 0px 180px;
-}
-
-/* Arrow edits */
-.left-2 {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
-.right-2 {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+  /* SECTION 9 */
   div.dobot-flex-container9 {
-    flex-flow: wrap-reverse;
-  }
-
-  iframe.dobot-tutorial-video1 {
-    width: 650px;
-    height: 340px;
-  }
-
-  iframe.dobot-tutorial-video2 {
-    width: 650px;
-    height: 340px;
-  }
-
-  iframe.dobot-tutorial-video3 {
-    width: 650px;
-    height: 340px;
-  }
-
-  iframe.dobot-tutorial-video4 {
-    width: 650px;
-    height: 340px;
+    display: flex;
+    justify-content: center;
+    background: #e2f2fb;
+    margin-bottom: 10px;
   }
 
   div.dobot-tutorial-box1 {
-    padding: 20px 100px 80px 100px;
+    padding: 60px 0px 90px 120px;
   }
 
   div.dobot-tutorial-box2 {
-    padding: 40px 0px 15px 0px;
+    width: 951.3px;
+    padding: 120px 0px 60px 0px;
   }
 
   h1.dobot-tutorial-h1 {
-    margin: 0px 100px 0px 100px;
+    color: #1a272d;
+    font-size: 62px;
+    margin: 0px 120px 0px 180px;
   }
 
   div.dobot-tutorial-line {
-    width: auto;
-    margin: 10px 495px 15px 100px;
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 370px 15px 180px;
   }
 
   p.dobot-tutorial-p {
-    margin: 0px 100px 10px 100px;
-  }
-
-  ol#dobot-carousel-indicators1 {
-    top: 365px;
-  }
-
-  a.dobot-models-opensource {
-    margin: 0px 100px 0px 100px;
-  }
-
-  a.dobot-tutorials-github {
-    margin: 0px 100px 0px 100px;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.dobot-tutorial-box1 {
-    padding: 0px 50px 60px 50px;
+    text-align: justify;
+    margin: 0px 120px 20px 180px;
   }
 
   iframe.dobot-tutorial-video1 {
-    width: 420px;
-    height: 200px;
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
   }
 
   iframe.dobot-tutorial-video2 {
-    width: 420px;
-    height: 200px;
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
   }
 
   iframe.dobot-tutorial-video3 {
-    width: 420px;
-    height: 200px;
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
   }
 
   iframe.dobot-tutorial-video4 {
-    width: 420px;
-    height: 200px;
-  }
-
-  div.dobot-tutorial-box2 {
-    padding: 30px 0px 20px 0px;
-  }
-
-  h1.dobot-tutorial-h1 {
-    font-size: 50px;
-    margin: 0px 30px 0px 30px;
-  }
-
-  div.dobot-tutorial-line {
-    margin: 5px 155px 15px 30px;
-  }
-
-  p.dobot-tutorial-p {
-    margin: 0px 30px 10px 30px;
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
   }
 
   ol#dobot-carousel-indicators1 {
-    margin: 0px 30px 0px 30px;
-    top: 220px;
-    right: 35px;
-    left: 50px;
-  }
-
-  .carousel-control .icon-prev,
-  .carousel-control .glyphicon-chevron-left {
-    left: 10px;
+    left: 35px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 400px;
   }
 
   a.dobot-models-opensource {
-    margin: 0px 30px 0px 30px;
+    display: block;
+    margin: 0px 120px 5px 180px;
   }
 
   a.dobot-tutorials-github {
-    margin: 0px 30px 0px 30px;
+    margin: 0px 120px 0px 180px;
   }
-}
 
-/* SECTION 10 */
-div.dobot-effectors-box1 {
-  background: #ededed;
-  padding: 50px 0px 35px 0px;
-}
+  /* Arrow edits */
+  .left-2 {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
 
-div.dobot-effectors-box1-5 {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
+  .right-2 {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
 
-h1.dobot-effectors-h1 {
-  max-width: 730px;
-  text-align: center;
-  font-size: 62px;
-  color: #1a272d;
-  margin: 0px 120px 0px 120px;
-}
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-flex-container9 {
+      flex-flow: wrap-reverse;
+    }
 
-div.dobot-effectors-line {
-  width: 400px;
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 0px 15px 0px;
-}
+    iframe.dobot-tutorial-video1 {
+      width: 650px;
+      height: 340px;
+    }
 
-p.dobot-effectors-p {
-  max-width: 730px;
-  text-align: center;
-  margin: 0px 120px 30px 120px;
-}
+    iframe.dobot-tutorial-video2 {
+      width: 650px;
+      height: 340px;
+    }
 
-figure.dobot-effectors-img1 {
-  text-align: center;
-  margin: 0px 120px 0px 120px;
-}
+    iframe.dobot-tutorial-video3 {
+      width: 650px;
+      height: 340px;
+    }
 
-div.dobot-effectors-box2 {
-  background: #ededed;
-  text-align: center;
-  padding-bottom: 20px;
-}
+    iframe.dobot-tutorial-video4 {
+      width: 650px;
+      height: 340px;
+    }
 
-img.dobot-effectors-servos {
-  width: 1500px;
-}
+    div.dobot-tutorial-box1 {
+      padding: 20px 100px 80px 100px;
+    }
 
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+    div.dobot-tutorial-box2 {
+      padding: 40px 0px 15px 0px;
+    }
+
+    h1.dobot-tutorial-h1 {
+      margin: 0px 100px 0px 100px;
+    }
+
+    div.dobot-tutorial-line {
+      width: auto;
+      margin: 10px 495px 15px 100px;
+    }
+
+    p.dobot-tutorial-p {
+      margin: 0px 100px 10px 100px;
+    }
+
+    ol#dobot-carousel-indicators1 {
+      top: 365px;
+    }
+
+    a.dobot-models-opensource {
+      margin: 0px 100px 0px 100px;
+    }
+
+    a.dobot-tutorials-github {
+      margin: 0px 100px 0px 100px;
+    }
+  }
+
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-tutorial-box1 {
+      padding: 0px 50px 60px 50px;
+    }
+
+    iframe.dobot-tutorial-video1 {
+      width: 420px;
+      height: 200px;
+    }
+
+    iframe.dobot-tutorial-video2 {
+      width: 420px;
+      height: 200px;
+    }
+
+    iframe.dobot-tutorial-video3 {
+      width: 420px;
+      height: 200px;
+    }
+
+    iframe.dobot-tutorial-video4 {
+      width: 420px;
+      height: 200px;
+    }
+
+    div.dobot-tutorial-box2 {
+      padding: 30px 0px 20px 0px;
+    }
+
+    h1.dobot-tutorial-h1 {
+      font-size: 50px;
+      margin: 0px 30px 0px 30px;
+    }
+
+    div.dobot-tutorial-line {
+      margin: 5px 155px 15px 30px;
+    }
+
+    p.dobot-tutorial-p {
+      margin: 0px 30px 10px 30px;
+    }
+
+    ol#dobot-carousel-indicators1 {
+      margin: 0px 30px 0px 30px;
+      top: 220px;
+      right: 35px;
+      left: 50px;
+    }
+
+    .carousel-control .icon-prev,
+    .carousel-control .glyphicon-chevron-left {
+      left: 10px;
+    }
+
+    a.dobot-models-opensource {
+      margin: 0px 30px 0px 30px;
+    }
+
+    a.dobot-tutorials-github {
+      margin: 0px 30px 0px 30px;
+    }
+  }
+
+  /* SECTION 10 */
   div.dobot-effectors-box1 {
-    padding: 30px 0px 40px 0px;
+    background: #ededed;
+    padding: 50px 0px 35px 0px;
+  }
+
+  div.dobot-effectors-box1-5 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
   }
 
   h1.dobot-effectors-h1 {
-    margin: 0px 100px 0px 100px;
+    max-width: 730px;
+    text-align: center;
+    font-size: 62px;
+    color: #1a272d;
+    margin: 0px 120px 0px 120px;
   }
 
   div.dobot-effectors-line {
-    width: 350px;
+    width: 400px;
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 0px 15px 0px;
   }
 
   p.dobot-effectors-p {
-    margin: 0px 100px 30px 100px;
+    max-width: 730px;
+    text-align: center;
+    margin: 0px 120px 30px 120px;
   }
 
   figure.dobot-effectors-img1 {
-    margin: 0px 100px 0px 100px;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.dobot-effectors-box1 {
-    padding: 20px 0px 30px 0px;
+    text-align: center;
+    margin: 0px 120px 0px 120px;
   }
 
-  h1.dobot-effectors-h1 {
-    font-size: 40px;
-    margin: 0px 30px 0px 30px;
-  }
-
-  div.dobot-effectors-line {
-    width: 250px;
-  }
-
-  p.dobot-effectors-p {
-    font-size: 14px;
-    margin: 0px 30px 20px 30px;
-  }
-
-  figure.dobot-effectors-img1 {
-    margin: 0px 30px 0px 30px;
-  }
-}
-
-/* SECTION 11 */
-div.dobot-flex-container11 {
-  display: flex;
-  justify-content: center;
-  padding: 40px 0px 0px 0px;
-}
-
-h1.dobot-models-h1 {
-  font-size: 62px;
-  color: #1a272d;
-  margin: 0px 0px 0px 0px;
-  padding-left: 200px;
-}
-
-div.dobot-models-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 875px 0px 200px;
-}
-
-/* Carousel-indicators edits can be found in X-Series section */
-
-/* Arrows function can be found in X-Series section */
-
-div.dobot-carousel-info {
-  position: absolute;
-  /* Extra */
-  color: black;
-  text-shadow: none;
-  top: 50px;
-  left: 200px;
-  padding-top: 0px
-}
-
-p.dobot-carousel-header {
-  text-align: left;
-  font-size: 25px;
-}
-
-div.dobot-weight {
-  display: flex;
-}
-
-div.dobot-payload {
-  display: flex;
-}
-
-div.dobot-reach {
-  display: flex;
-  margin-bottom: 40px;
-}
-
-div.dobot-spec-models {
-  display: flex;
-  flex-flow: column;
-  text-align: left;
-}
-
-a.dobot-specs-model {
-  margin-bottom: 5px;
-}
-
-/* Gradient on top of arrows left can be found in X-Series section */
-
-/* Gradient on top of arrows right can be found in X-Series section */
-
-/* Hides Glyphicon left & right can be found in X-Series section */
-
-/* Arrowsa for carousel can be found in X-Series section */
-
-span#dobot-models-left-arrow {
-  margin-left: 120px;
-}
-
-span#dobot-models-right-arrow {
-  margin-right: 120px;
-}
-
-p.dobot-carousel-info-text1 {
-  margin-right: 100px;
-  margin-bottom: 0px;
-}
-
-p.dobot-carousel-info-text2 {
-  margin-right: 90px;
-  margin-bottom: 0px;
-}
-
-p.dobot-carousel-info-text3 {
-  margin-right: 105px;
-  margin-bottom: 0px;
-}
-
-/* TABLET */
-/* Change names here on bottom */
-@media only screen and (max-width: 1024px) {
-  div.dobot-flex-container11 {
-    padding-bottom: 40px;
-  }
-
-  div.dobot-models-box1 {
+  div.dobot-effectors-box2 {
+    background: #ededed;
+    text-align: center;
     padding-bottom: 20px;
   }
 
-  div.carousel-caption {
-    top: 0px;
+  img.dobot-effectors-servos {
+    width: 1500px;
   }
 
-  h1.dobot-models-h1 {
-    padding-left: 150px;
-    font-size: 5vw;
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-effectors-box1 {
+      padding: 30px 0px 40px 0px;
+    }
+
+    h1.dobot-effectors-h1 {
+      margin: 0px 100px 0px 100px;
+    }
+
+    div.dobot-effectors-line {
+      width: 350px;
+    }
+
+    p.dobot-effectors-p {
+      margin: 0px 100px 30px 100px;
+    }
+
+    figure.dobot-effectors-img1 {
+      margin: 0px 100px 0px 100px;
+    }
   }
 
-  div.dobot-models-line {
-    width: auto;
-    margin: 10px 500px 0px 150px;
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-effectors-box1 {
+      padding: 20px 0px 30px 0px;
+    }
+
+    h1.dobot-effectors-h1 {
+      font-size: 40px;
+      margin: 0px 30px 0px 30px;
+    }
+
+    div.dobot-effectors-line {
+      width: 250px;
+    }
+
+    p.dobot-effectors-p {
+      font-size: 14px;
+      margin: 0px 30px 20px 30px;
+    }
+
+    figure.dobot-effectors-img1 {
+      margin: 0px 30px 0px 30px;
+    }
   }
 
-  p.dobot-carousel-header {
-    font-size: 2.3vw;
-  }
-
-  div.dobot-carousel-info {
-    font-size: 1.6vw;
-    left: 150px;
-    top: 15px;
-  }
-
-  span#dobot-models-left-arrow {
-    margin-left: 100px;
-  }
-
-  span#dobot-models-right-arrow {
-    margin-right: 100px;
-  }
-
-  a.dobot-specs-model {
-    font-size: 2vw;
-  }
-
-  a.dobot-specs-shop1 {
-    font-size: 2vw;
-  }
-
-  div.dobot-reach {
-    margin-bottom: 20px;
-  }
-}
-
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
+  /* SECTION 11 */
   div.dobot-flex-container11 {
-    padding: 20px 0px 20px 0px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 0px 0px;
   }
 
   h1.dobot-models-h1 {
-    padding: 0px 0px 0px 40px;
+    font-size: 62px;
+    color: #1a272d;
+    margin: 0px 0px 0px 0px;
+    padding-left: 200px;
   }
 
   div.dobot-models-line {
-    margin: 0px 300px 0px 40px;
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 875px 0px 200px;
   }
 
-  div.carousel-caption {
-    left: 40px;
-    padding-top: 5px;
-  }
+  /* Carousel-indicators edits can be found in X-Series section */
 
-  span#dobot-models-left-arrow {
-    left: 0px;
-    margin-left: 20px;
-  }
+  /* Arrows function can be found in X-Series section */
 
-  span#dobot-models-right-arrow {
-    margin-right: 20px;
-  }
-
-  #dobot-carousel-indicators {
-    top: 160px;
+  div.dobot-carousel-info {
+    position: absolute;
+    /* Extra */
+    color: black;
+    text-shadow: none;
+    top: 50px;
+    left: 200px;
+    padding-top: 0px
   }
 
   p.dobot-carousel-header {
-    font-size: 17px;
-    margin: 0px 0px 5px 0px;
-    height: 25px;
+    text-align: left;
+    font-size: 25px;
   }
 
-  div.dobot-carousel-info {
-    left: 40px;
-    top: 5px;
-    font-size: 15px;
-  }
-
-  p.dobot-carousel-info-text1 {
-    font-size: 15px;
-    margin-right: 98px;
-  }
-
-  p.dobot-carousel-info-text2 {
-    font-size: 15px;
-  }
-
-  p.dobot-carousel-info-text3 {
-    font-size: 15px;
+  div.dobot-weight {
+    display: flex;
   }
 
   div.dobot-payload {
-    height: 20px;
-    margin-bottom: 5px;
-  }
-
-  a.dobot-specs-model {
-    font-size: 15px;
-    margin: 5px 60px 0px 0px;
-  }
-
-  a.dobot-specs-shop1 {
-    font-size: 15px;
-    margin: 5px 0px 0px 0px;
-  }
-
-  img.dobot-models-img-all {
-    margin-left: 30px;
-  }
-
-  div.dobot-spec-models {
-    flex-flow: wrap;
+    display: flex;
   }
 
   div.dobot-reach {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  div.dobot-spec-models {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+  }
+
+  a.dobot-specs-model {
+    margin-bottom: 5px;
+  }
+
+  /* Gradient on top of arrows left can be found in X-Series section */
+
+  /* Gradient on top of arrows right can be found in X-Series section */
+
+  /* Hides Glyphicon left & right can be found in X-Series section */
+
+  /* Arrowsa for carousel can be found in X-Series section */
+
+  span#dobot-models-left-arrow {
+    margin-left: 120px;
+  }
+
+  span#dobot-models-right-arrow {
+    margin-right: 120px;
+  }
+
+  p.dobot-carousel-info-text1 {
+    margin-right: 100px;
     margin-bottom: 0px;
   }
-}
+
+  p.dobot-carousel-info-text2 {
+    margin-right: 90px;
+    margin-bottom: 0px;
+  }
+
+  p.dobot-carousel-info-text3 {
+    margin-right: 105px;
+    margin-bottom: 0px;
+  }
+
+  /* TABLET */
+  /* Change names here on bottom */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-flex-container11 {
+      padding-bottom: 40px;
+    }
+
+    div.dobot-models-box1 {
+      padding-bottom: 20px;
+    }
+
+    div.carousel-caption {
+      top: 0px;
+    }
+
+    h1.dobot-models-h1 {
+      padding-left: 150px;
+      font-size: 5vw;
+    }
+
+    div.dobot-models-line {
+      width: auto;
+      margin: 10px 500px 0px 150px;
+    }
+
+    p.dobot-carousel-header {
+      font-size: 2.3vw;
+    }
+
+    div.dobot-carousel-info {
+      font-size: 1.6vw;
+      left: 150px;
+      top: 15px;
+    }
+
+    span#dobot-models-left-arrow {
+      margin-left: 100px;
+    }
+
+    span#dobot-models-right-arrow {
+      margin-right: 100px;
+    }
+
+    a.dobot-specs-model {
+      font-size: 2vw;
+    }
+
+    a.dobot-specs-shop1 {
+      font-size: 2vw;
+    }
+
+    div.dobot-reach {
+      margin-bottom: 20px;
+    }
+  }
 
 
-/* SECTION 12 */
-div.dobot-contact-box12 {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  background: #ededed;
-}
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-flex-container11 {
+      padding: 20px 0px 20px 0px;
+      margin-bottom: 20px;
+    }
 
-div.dobot-contact-left-wrap {
-  flex-wrap: wrap;
-  width: 1100px;
-  background: #ededed;
-}
+    h1.dobot-models-h1 {
+      padding: 0px 0px 0px 40px;
+    }
 
-img.dobot-contact-banner {
-  width: 1300px;
-}
+    div.dobot-models-line {
+      margin: 0px 300px 0px 40px;
+    }
 
-h1.dobot-contact-questions {
-  font-size: 3.5vw;
-  color: #1a272d;
-}
+    div.carousel-caption {
+      left: 40px;
+      padding-top: 5px;
+    }
 
-div.dobot-contact-line {
-  height: 2px;
-  background: #1a272d;
-  margin: 10px 215px 15px 0px;
-}
+    span#dobot-models-left-arrow {
+      left: 0px;
+      margin-left: 20px;
+    }
 
-div.dobot-contact-box2 {
-  width: 100%;
-  height: 50px;
-  background: #ededed;
-}
+    span#dobot-models-right-arrow {
+      margin-right: 20px;
+    }
 
-img.dobot-contact-img2 {
-  width: 408px;
-}
+    #dobot-carousel-indicators {
+      top: 160px;
+    }
 
-/* Contact form field edits */
-div#ctl44_dvControl {
-  margin-top: 0px;
-}
+    p.dobot-carousel-header {
+      font-size: 17px;
+      margin: 0px 0px 5px 0px;
+      height: 25px;
+    }
 
-/* Edits the text area for the contact form */
-input#ctl44_ctlContactForm_rpFormField_ctl00_txtField,
-input#ctl44_ctlContactForm_rpFormField_ctl01_txtField,
-input#ctl44_ctlContactForm_rpFormField_ctl02_txtField,
-input#ctl44_ctlContactForm_rpFormField_ctl03_txtField,
-input#ctl44_ctlContactForm_rpFormField_ctl04_txtField,
-input#ctl44_ctlContactForm_rpFormField_ctl05_txtField {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #333333;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 10px;
-  resize: vertical;
-}
+    div.dobot-carousel-info {
+      left: 40px;
+      top: 5px;
+      font-size: 15px;
+    }
 
-/* Color of border on hover */
-input#ctl44_ctlContactForm_rpFormField_ctl00_txtField:hover,
-input#ctl44_ctlContactForm_rpFormField_ctl01_txtField:hover,
-input#ctl44_ctlContactForm_rpFormField_ctl02_txtField:hover,
-input#ctl44_ctlContactForm_rpFormField_ctl03_txtField:hover,
-input#ctl44_ctlContactForm_rpFormField_ctl04_txtField:hover,
-input#ctl44_ctlContactForm_rpFormField_ctl05_txtField:hover {
-  border: 1px solid #007cc4;
-}
+    p.dobot-carousel-info-text1 {
+      font-size: 15px;
+      margin-right: 98px;
+    }
 
-/* Makes message box longer */
-input#ctl44_ctlContactForm_rpFormField_ctl05_txtField {
-  padding-bottom: 120px;
-}
+    p.dobot-carousel-info-text2 {
+      font-size: 15px;
+    }
 
-/* Style the submit button with a specific background color etc */
-input#ctl44_ctlContactForm_btnSubmit {
-  background-color: #007cc4;
-  color: white;
-  padding: 15px 50px;
-  margin-top: 0px;
-  border: none;
-  cursor: pointer;
-}
+    p.dobot-carousel-info-text3 {
+      font-size: 15px;
+    }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input#ctl44_ctlContactForm_btnSubmit:hover {
-  background-color: white;
-  color: #007cc4;
-}
+    div.dobot-payload {
+      height: 20px;
+      margin-bottom: 5px;
+    }
 
-/* Closes gap between title text & name section */
-div#ctl44_dvControl.Control.ContactForm.Control_12777 {
-  margin-top: 0px;
-}
+    a.dobot-specs-model {
+      font-size: 15px;
+      margin: 5px 60px 0px 0px;
+    }
 
-input#ctl44_ctlContactForm_rpFormField_ctl06_rblFields_1 {
-  margin-left: 15px;
-}
+    a.dobot-specs-shop1 {
+      font-size: 15px;
+      margin: 5px 0px 0px 0px;
+    }
 
-figure.agilex-secondimg-background {
-  background: #ededed;
-}
+    img.dobot-models-img-all {
+      margin-left: 30px;
+    }
 
-/* DESKTOP */
-@media only screen and (max-width: 2565px) {
+    div.dobot-spec-models {
+      flex-flow: wrap;
+    }
+
+    div.dobot-reach {
+      margin-bottom: 0px;
+    }
+  }
+
+
+  /* SECTION 12 */
+  div.dobot-contact-box12 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    background: #ededed;
+  }
+
   div.dobot-contact-left-wrap {
-    width: auto;
+    flex-wrap: wrap;
+    width: 1100px;
+    background: #ededed;
   }
 
   img.dobot-contact-banner {
-    width: 1430px;
+    width: 1300px;
   }
 
-  div.contact-info {
-    max-width: 1135px;
+  h1.dobot-contact-questions {
+    font-size: 3.5vw;
+    color: #1a272d;
   }
 
-  figure.dobot-secondimg-background {
-    width: 530px;
+  div.dobot-contact-line {
+    height: 2px;
+    background: #1a272d;
+    margin: 10px 215px 15px 0px;
   }
 
-  img.dobot-contact-img2 {
+  div.dobot-contact-box2 {
     width: 100%;
-  }
-}
-
-/* TABLET */
-@media only screen and (max-width: 1024px) {
-  div.dobot-contact-box12 {
-    flex-flow: wrap;
-    justify-content: center;
-    margin-top: 0px;
-  }
-
-  h1.dobot-contact-questions {
-    font-size: 60px;
-  }
-
-  div.dobot-contact-line {
-    margin: 10px 326px 15px 0px;
+    height: 50px;
+    background: #ededed;
   }
 
   img.dobot-contact-img2 {
-    display: none;
-  }
-}
-
-/* MOBILE */
-@media only screen and (max-width: 736px) {
-  div.dobot-contact-box12 {
-    flex-flow: wrap;
-    margin-bottom: 0PX;
+    width: 408px;
   }
 
-  div.contact-info {
-    padding: 35px 30px 30px 30px;
-  }
-
-  h1.dobot-contact-questions {
-    font-size: 44px;
+  /* Contact form field edits */
+  div#ctl45_dvControl {
     margin-top: 0px;
   }
 
-  div.dobot-contact-line {
-    margin: 10px 165px 15px 0px;
+  /* Edits the text area for the contact form */
+  input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
   }
 
-  input#ctl46_ctlContactForm_rpFormField_ctl00_txtField,
-  input#ctl46_ctlContactForm_rpFormField_ctl01_txtField,
-  input#ctl46_ctlContactForm_rpFormField_ctl02_txtField,
-  input#ctl46_ctlContactForm_rpFormField_ctl03_txtField,
-  input#ctl46_ctlContactForm_rpFormField_ctl04_txtField,
-  input#ctl46_ctlContactForm_rpFormField_ctl05_txtField {
-    padding: 10px;
-    margin-top: 1px;
-    margin-bottom: 0px;
+  /* Color of border on hover */
+  input#ctl45_ctlContactForm_rpFormField_ctl00_txtField:hover,
+  input#ctl45_ctlContactForm_rpFormField_ctl01_txtField:hover,
+  input#ctl45_ctlContactForm_rpFormField_ctl02_txtField:hover,
+  input#ctl45_ctlContactForm_rpFormField_ctl03_txtField:hover,
+  input#ctl45_ctlContactForm_rpFormField_ctl04_txtField:hover,
+  input#ctl45_ctlContactForm_rpFormField_ctl05_txtField:hover {
+    border: 1px solid #007cc4;
   }
-}
+
+  /* Makes message box longer */
+  input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+    padding-bottom: 120px;
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input#ctl45_ctlContactForm_btnSubmit {
+    background-color: #007cc4;
+    color: white;
+    padding: 15px 50px;
+    margin-top: 0px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input#ctl45_ctlContactForm_btnSubmit:hover {
+    background-color: white;
+    color: #007cc4;
+  }
+
+  /* Closes gap between title text & name section */
+  div#ctl45_dvControl.Control.ContactForm.Control_12777 {
+    margin-top: 0px;
+  }
+
+  input#ctl45_ctlContactForm_rpFormField_ctl06_rblFields_1 {
+    margin-left: 15px;
+  }
+
+  figure.agilex-secondimg-background {
+    background: #ededed;
+  }
+
+  /* DESKTOP */
+  @media only screen and (max-width: 2565px) {
+    div.dobot-contact-left-wrap {
+      width: auto;
+    }
+
+    img.dobot-contact-banner {
+      width: 1430px;
+    }
+
+    div.contact-info {
+      max-width: 1135px;
+    }
+
+    figure.dobot-secondimg-background {
+      width: 530px;
+    }
+
+    img.dobot-contact-img2 {
+      width: 100%;
+    }
+  }
+
+  /* TABLET */
+  @media only screen and (max-width: 1024px) {
+    div.dobot-contact-box12 {
+      flex-flow: wrap;
+      justify-content: center;
+      margin-top: 0px;
+    }
+
+    h1.dobot-contact-questions {
+      font-size: 60px;
+    }
+
+    div.dobot-contact-line {
+      margin: 10px 326px 15px 0px;
+    }
+
+    img.dobot-contact-img2 {
+      display: none;
+    }
+  }
+
+  /* MOBILE */
+  @media only screen and (max-width: 736px) {
+    div.dobot-contact-box12 {
+      flex-flow: wrap;
+      margin-bottom: 0PX;
+    }
+
+    div.contact-info {
+      padding: 35px 30px 30px 30px;
+    }
+
+    h1.dobot-contact-questions {
+      font-size: 44px;
+      margin-top: 0px;
+    }
+
+    div.dobot-contact-line {
+      margin: 10px 165px 15px 0px;
+    }
+
+    input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+    input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+      padding: 10px;
+      margin-top: 1px;
+      margin-bottom: 0px;
+    }
+  }
