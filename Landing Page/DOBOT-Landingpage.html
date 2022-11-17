@@ -16,7 +16,7 @@
   <div class="dobot-flex-container2">
     <div class="dobot-automation-box1">
       <div class="dobot-automation-title-img">
-        <div>
+        <div class="dobot-automation-box1-group">
           <!--Helps with responsve underline-->
           <h1 class="dobot-automation-h1">Automation with</h1>
           <div class="dobot-automation-line"></div>
@@ -161,7 +161,7 @@
     </div>
 
     <div class="dobot-visual-box2">
-      <figure>
+      <figure class="dobot-visual-gif">
         <img src="/Shared/Laptop Mockup/dobotgif.gif" data-image="0">
       </figure>
     </div>
@@ -632,6 +632,8 @@
 
   <div class="dobot-contact-box2"></div>
 </div>
+
+
 <style>
   .con-form-inner .Control {
     display: flex;
@@ -689,6 +691,7 @@
   }
 </style>
 
+
 <style>
   /* DOBOT LANDING PAGE */
   /* SECTION 1 */
@@ -716,13 +719,17 @@
   }
 
   div.dobot-automation-box1 {
-    width: 870px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px 50px 60px 120px;
   }
 
   div.dobot-automation-title-img {
     display: flex;
-    justify-content: center;
-    margin: 0px 60px 0px 120px;
+  }
+
+  div.dobot-automation-box1-group {
+    margin-top: 10px;
   }
 
   img.dobot-automation-logo {
@@ -733,8 +740,8 @@
     max-width: 670px;
     text-align: left;
     font-size: 52px;
-    color: #1a272d;
-    margin: 50px 15px 0px 0px;
+    margin-top: 0px;
+    margin-right: 15px;
   }
 
   div.dobot-automation-line {
@@ -743,15 +750,17 @@
     margin: 10px 130px 15px 0px;
   }
 
-  figure.dobot-automation-logo {
-    text-align: center;
-    margin-top: 35px;
-    margin-bottom: 20px;
+  p.dobot-automation-p {
+    max-width: 670px;
+    text-align: justify;
   }
 
-  p.dobot-automation-p {
-    text-align: justify;
-    margin: 0px 60px 60px 120px;
+  div.dobot-automation-box2 {
+    padding: 60px 120px 0px 50px;
+  }
+
+  figure.dobot-automation-img {
+    width: 700px;
   }
 
   /* Fixes dobot logo issue */
@@ -881,7 +890,7 @@
   div.dobot-flex-container3 {
     display: flex;
     justify-content: center;
-    margin: 30px 110px 30px 120px;
+    margin: 30px 120px 30px 120px;
   }
 
   /* TABLET */
@@ -917,12 +926,13 @@
   }
 
   div.dobot-cr-box2 {
-    padding: 100px 120px 60px 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px 120px 60px 50px;
   }
 
   h1.dobot-cr-h1 {
     max-width: 670px;
-    text-align: left;
     font-size: 60px;
     color: #1a272d;
     margin-top: 0px;
@@ -1008,7 +1018,7 @@
     font-size: 60px;
     text-align: center;
     color: #1a272d;
-    margin: 40px 0px 0px 0px;
+    margin-top: 60px;
   }
 
   div.dobot-performance-line {
@@ -1019,19 +1029,18 @@
 
   div.dobot-flex-container5 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 10px;
   }
 
   div.dobot-performance-box1 {
-    width: 450px;
+    width: 295px;
     padding: 0px 0px 40px 0px;
-    margin-left: 120px;
+    margin: 0px 25px 0px 120px;
   }
 
   figure.dobot-performance-container1 {
     text-align: center;
-    margin: 0px 40px 0px 40px;
   }
 
   img.dobot-performance-operation {
@@ -1042,24 +1051,22 @@
     font-size: 20px;
     text-align: center;
     color: #1a272d;
-    margin: 20px 40px 10px 40px;
   }
 
   p.dobot-performance1-p {
     font-size: 14.5px;
     text-align: center;
-    margin: 0px 40px 0px 40px;
   }
 
   div.dobot-performance-box2 {
-    width: 450px;
+    width: 295px;
     padding: 0px 0px 40px 0px;
+    margin: 0px 25px 0px 25px;
   }
 
   figure.dobot-performance-container2 {
     transform: scaleX(-1);
     text-align: center;
-    margin: 0px 40px 0px 40px;
   }
 
   img.dobot-performance-reach {
@@ -1071,23 +1078,21 @@
     text-align: center;
     font-size: 20px;
     color: #1a272d;
-    margin: 20px 40px 10px 40px;
   }
 
   p.dobot-performance2-p {
     font-size: 14.5px;
     text-align: center;
-    margin: 0px 40px 0px 40px;
   }
 
   div.dobot-performance-box3 {
-    width: 450px;
+    width: 295px;
     padding: 0px 0px 40px 0px;
+    margin: 0px 25px 0px 25px;
   }
 
   figure.dobot-performance-container3 {
     text-align: center;
-    margin: 0px 40px 0px 40px;
   }
 
   img.dobot-performance-repeatability {
@@ -1098,25 +1103,22 @@
     text-align: center;
     font-size: 20px;
     color: #1a272d;
-    margin: 20px 40px 10px 40px;
   }
 
   p.dobot-performance3-p {
     font-size: 14.5px;
     text-align: center;
-    margin: 0px 40px 0px 40px;
   }
 
   div.dobot-performance-box4 {
-    width: 450px;
+    width: 295px;
     padding: 0px 0px 40px 0px;
-    margin-right: 120px;
+    margin: 0px 120px 0px 25px;
   }
 
   figure.dobot-performance-container4 {
     transform: scaleX(-1);
     text-align: center;
-    margin: 0px 40px 0px 40px;
   }
 
   img.dobot-performance-payload {
@@ -1128,13 +1130,11 @@
     text-align: center;
     font-size: 20px;
     color: #1a272d;
-    margin: 20px 40px 10px 40px;
   }
 
   p.dobot-performance4-p {
     font-size: 14.5px;
     text-align: center;
-    margin: 0px 40px 0px 40px;
   }
 
   /* Fixes line issue */
@@ -1184,7 +1184,7 @@
 
     p.dobot-performance1-p {
       font-size: 13.5px;
-      margin: 0px 0px 0px 0px;
+      margin: 0px 0px 0px 0px; 
     }
 
     div.dobot-performance-box2 {
@@ -1332,13 +1332,16 @@
   }
 
   div.dobot-visual-box1 {
-    width: 951.3px;
-    padding: 80px 50px 60px 120px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px 50px 60px 120px;
   }
 
   h1.dobot-visual-h1 {
-    font-size: 60px;
+    max-width: 670px;
+    font-size: 51px;
     color: #1a272d;
+    margin-top: 0px;
   }
 
   div.dobot-visual-line {
@@ -1348,6 +1351,7 @@
   }
 
   p.dobot-visual-p {
+    max-width: 670px;
     font-size: 23px;
     line-height: 30px;
   }
@@ -1358,9 +1362,13 @@
   }
 
   div.dobot-visual-box2 {
-    width: 800px;
-    text-align: center;
     padding: 60px 120px 60px 50px;
+  }
+
+  figure.dobot-visual-gif {
+    width: 700px;
+    height: 380px;
+    max-width: 100%;
   }
 
   /* TABLET */
@@ -1441,12 +1449,13 @@
   }
 
   div.dobot-pose-box2 {
-    padding: 80px 120px 60px 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px 120px 60px 50px;
   }
 
   h1.dobot-pose-h1 {
     max-width: 670px;
-    text-align: left;
     font-size: 60px;
     color: #1a272d;
     margin-top: 0px;
@@ -1566,11 +1575,11 @@
 
   div.dobot-applications-box2 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 
   img.dobot-applications-app {
-    width: 1300px;
+    width: 1100px;
   }
 
   /* TABLET */
@@ -1630,29 +1639,30 @@
   }
 
   div.dobot-tutorial-box1 {
-    padding: 60px 0px 90px 120px;
+    padding: 60px 50px 60px 120px;
   }
 
   div.dobot-tutorial-box2 {
-    width: 951.3px;
-    padding: 120px 0px 60px 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px 120px 60px 50px;
   }
 
   h1.dobot-tutorial-h1 {
+    max-width: 670px;
     color: #1a272d;
     font-size: 62px;
-    margin: 0px 120px 0px 180px;
   }
 
   div.dobot-tutorial-line {
     height: 2px;
     background: #1a272d;
-    margin: 10px 370px 15px 180px;
+    margin: 10px 370px 15px 0px;
   }
 
   p.dobot-tutorial-p {
+    max-width: 670px;
     text-align: justify;
-    margin: 0px 120px 20px 180px;
   }
 
   iframe.dobot-tutorial-video1 {
@@ -1689,11 +1699,10 @@
 
   a.dobot-models-opensource {
     display: block;
-    margin: 0px 120px 5px 180px;
   }
 
   a.dobot-tutorials-github {
-    margin: 0px 120px 0px 180px;
+    color: #007cc4;
   }
 
   /* Arrow edits */
@@ -1834,7 +1843,7 @@
   /* SECTION 10 */
   div.dobot-effectors-box1 {
     background: #ededed;
-    padding: 50px 0px 35px 0px;
+    padding: 50px 0px 0px 0px;
   }
 
   div.dobot-effectors-box1-5 {
@@ -1861,7 +1870,7 @@
   p.dobot-effectors-p {
     max-width: 730px;
     text-align: center;
-    margin: 0px 120px 30px 120px;
+    margin: 0px 120px 0px 120px;
   }
 
   figure.dobot-effectors-img1 {
@@ -1872,11 +1881,11 @@
   div.dobot-effectors-box2 {
     background: #ededed;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
   }
 
   img.dobot-effectors-servos {
-    width: 1500px;
+    width: 1200px;
   }
 
   /* TABLET */
