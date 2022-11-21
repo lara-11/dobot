@@ -65,18 +65,7 @@
   }
 
   figure.dobot-automation-img {
-    width: 700px;
-  }
-
-  /* Fixes dobot logo issue */
-  @media only screen and (max-width: 1761px) {
-    figure.dobot-automation-logo {
-      margin-top: 40px;
-    }
-
-    img.dobot-automation-logo {
-      width: 255px;
-    }
+    max-width: 700px;
   }
 
   /* Fixes dobot logo issue */
@@ -94,8 +83,8 @@
     }
 
     figure.dobot-automation-logo {
-      text-align: left;
-      margin-top: 25px;
+      margin-top: 0px;
+      margin-bottom: 15px;
     }
   }
 
@@ -126,7 +115,7 @@
   /* TABLET */
   @media only screen and (max-width: 1024px) {
     div.dobot-automation-box1 {
-      padding: 40px 30px 0px 30px;
+      padding: 30px 30px 0px 30px;
     }
 
     h1.dobot-automation-h1 {
@@ -142,7 +131,7 @@
     }
 
     figure.dobot-automation-logo {
-      margin: 0px 0px 0px 0px;
+      margin: 0px 0px 15px 0px;
       width: 230px;
     }
 
@@ -155,25 +144,6 @@
     }
   }
 
-  /* Fixes dobot logo issue */
-  @media only screen and (max-width: 994px) {
-    figure.dobot-automation-logo {
-      margin: 30px 100px 10px 0px;
-    }
-  }
-
-  /* Fixes dobot logo issue */
-  @media only screen and (max-width: 830px) {
-    div.dobot-automation-title-img {
-      display: block;
-    }
-
-    figure.dobot-automation-logo {
-      text-align: left;
-      margin-top: 10px;
-    }
-  }
-
   /* MOBILE */
   @media only screen and (max-width: 736px) {
     div.dobot-flex-container2 {
@@ -181,11 +151,12 @@
     }
 
     div.dobot-automation-title-img {
-      margin: 0px 30px 0px 30px;
+      display: block;
     }
 
     h1.dobot-automation-h1 {
-      margin-top: 30px;
+      margin-top: 0px;
+      margin-right: 0px;
       font-size: 45px;
     }
 
@@ -198,12 +169,11 @@
     }
 
     p.dobot-automation-p {
-      margin: 0px 30px 10px 30px;
       font-size: 14px;
     }
 
     figure.dobot-automation-img {
-      margin: 0px 30px 0px 30px;
+      margin: 0px 0px 0px 0px;
     }
   }
 
@@ -310,6 +280,7 @@
     }
 
     h1.dobot-cr-h1 {
+      font-size: 50px;
       text-align: left;
       max-width: 100%;
     }
@@ -517,7 +488,7 @@
   /* TABLET */
   @media only screen and (max-width: 1024px) {
     h1.dobot-performance-title-h1 {
-      font-size: 5vw;
+      font-size: 50px;
       margin-top: 40px;
     }
 
@@ -757,7 +728,7 @@
     }
 
     h1.dobot-visual-h1 {
-      font-size: 45px;
+      font-size: 49px;
       margin: 0px 0px 0px 0px;
     }
 
@@ -1006,6 +977,7 @@
     }
 
     h1.dobot-applications-h1 {
+      font-size: 50px;
       margin: 0px 100px 0px 100px;
     }
 
@@ -1188,6 +1160,10 @@
       padding: 40px 25px 0px 25px;
     }
 
+    h1.dobot-tutorial-h1 {
+      font-size: 50px;
+    }
+
     div.dobot-tutorial-line {
       width: auto;
       margin: 10px 370px 15px 0px;
@@ -1250,6 +1226,7 @@
     }
 
     p.dobot-tutorial-p {
+      font-size: 14px;
       margin: 0px 30px 10px 30px;
     }
 
@@ -1344,6 +1321,7 @@
     }
 
     h1.dobot-effectors-h1 {
+      font-size: 50px;
       margin: 0px 100px 0px 100px;
     }
 
