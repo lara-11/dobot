@@ -342,7 +342,7 @@
 
   div.dobot-flex-container5 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 10px;
   }
 
@@ -1066,6 +1066,10 @@
     text-align: justify;
   }
 
+  figure.dobot-container-all {
+    background-color: #e2f2fb;
+  }
+
   iframe.dobot-tutorial-video1 {
     width: 700px;
     height: 380px;
@@ -1528,6 +1532,10 @@
   p.dobot-carousel-info-text3 {
     margin-right: 105px;
     margin-bottom: 0px;
+  }
+
+  img.dobot-models-img-all {
+    background-color: white;
   }
 
     /* RESPONSIVE */
